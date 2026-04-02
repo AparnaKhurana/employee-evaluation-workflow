@@ -34,9 +34,11 @@ Performance Score > 85
 Attendance > 90%
 
 
+
 👍 Recommended
 
 Performance Score between 70 – 85
+
 
 
 ❌ Not Recommended
@@ -50,11 +52,17 @@ Performance Score < 70
 This automation runs like a pipeline:
 
 1️⃣ Trigger workflow manually
+
 2️⃣ Pull employee data from Google Sheets
+
 3️⃣ Apply smart conditions using IF nodes
+
 4️⃣ Classify employees into categories
+
 5️⃣ Merge results into one dataset
+
 6️⃣ Push updated results back to Google Sheets
+
 
 ---
 
@@ -99,8 +107,11 @@ The system doesn’t just process data — it **tells a story** 📈
 This system helps HR teams:
 
 ✔ Identify high-performing employees instantly
+
 ✔ Make faster, data-backed decisions
+
 ✔ Reduce manual evaluation effort
+
 ✔ Improve workforce planning
 
 ---
