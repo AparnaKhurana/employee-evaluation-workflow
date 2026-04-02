@@ -1,89 +1,112 @@
-# Employee Performance Automation (n8n)
+# 🚀 Employee Recommendation Engine
 
-## 📌 Project Overview
-
-This project uses n8n to automate employee performance evaluation.
-
-It reads employee data and categorizes employees into:
-
-* Highly Recommended
-* Recommended
-* Not Recommended
+### ⚡ Powered by n8n | 📊 Data-Driven HR Decisions
 
 ---
 
-## 🧠 Logic Used
+## 🧠 What This Project Does
 
-### ⭐ Highly Recommended
+Imagine an HR assistant that **automatically evaluates employees** and tells you who deserves recognition, promotion, or improvement.
 
-* Performance Score > 85
-* Attendance > 90
+That’s exactly what this project does 👇
 
-### 👍 Recommended
+💡 It analyzes:
 
-* Performance Score between 70 and 85
+* Performance Scores
+* Attendance Records
 
-### ❌ Not Recommended
+🎯 And intelligently classifies employees into:
 
-* Remaining employees
-
----
-
-## 🔄 Workflow Steps
-
-1. Read data from Google Sheets
-2. Apply conditions using IF nodes
-3. Categorize employees
-4. Merge results
-5. Save to Google Sheets
+* ⭐ **Highly Recommended**
+* 👍 **Recommended**
+* ❌ **Not Recommended**
 
 ---
 
-## 📸 Screenshots
+## 🔍 Decision Logic (Smart Rules Engine)
 
-### Workflow
+The recommendation is based on:
+
+⭐ Highly Recommended
+Performance Score > 85
+Attendance > 90%
+👍 Recommended
+Performance Score between 70 – 85
+❌ Not Recommended
+Performance Score < 70
+
+---
+
+## 🔄 Behind the Scenes (Workflow)
+
+This automation runs like a pipeline:
+
+1️⃣ Trigger workflow manually
+2️⃣ Pull employee data from Google Sheets
+3️⃣ Apply smart conditions using IF nodes
+4️⃣ Classify employees into categories
+5️⃣ Merge results into one dataset
+6️⃣ Push updated results back to Google Sheets
+
+---
+
+## 📊 Insights Dashboard
+
+The system doesn’t just process data — it **tells a story** 📈
+
+🔹 What you can see:
+
+* 👥 Total Employees
+* 📊 Average Performance Score
+* 🌟 Top Performers
+* 🏢 Department-wise Analysis
+* 📈 Recommendation Distribution
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool             | Purpose             |
+| ---------------- | ------------------- |
+| ⚙️ n8n           | Workflow Automation |
+| 📄 Google Sheets | Data Storage        |
+| 📊 Power BI      | Data Visualization  |
+
+---
+
+## 📸 Visual Preview
+
+### 🧩 Workflow Architecture
 
 ![Workflow](workflow.png)
 
-### Dashboard
+### 📊 Dashboard View
 
 ![Dashboard](dashboard.jpeg)
 
 ---
 
-## 🚀 How to Run
+## 🎯 Why This Matters
 
-1. Install n8n:
+This system helps HR teams:
 
-```bash
-npm install n8n -g
-```
-
-2. Start n8n:
-
-```bash
-n8n
-```
-
-3. Open browser:
-   http://localhost:5678
-
-4. Import workflow.json
-
-5. Connect Google Sheets
-
-6. Click Execute Workflow
+✔ Identify high-performing employees instantly
+✔ Make faster, data-backed decisions
+✔ Reduce manual evaluation effort
+✔ Improve workforce planning
 
 ---
 
-## 🎯 Features
+## 🌱 Future Scope
 
-* Automation using n8n
-* Real-time data processing
-* Decision making using conditions
+🚀 What can be added next:
+
+* AI-based recommendation engine
+* Real-time dashboard integration
+* Employee sentiment analysis
+* Automated email alerts
 
 ---
 
-## 🙌 Author
-
+## 👩‍💻 Author 
 Aparna Khurana
