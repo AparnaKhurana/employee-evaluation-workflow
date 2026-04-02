@@ -66,6 +66,40 @@ This automation runs like a pipeline:
 
 ---
 
+## 🚀 How to Run
+
+1. Install n8n:
+
+
+npm install n8n -g
+
+
+2. Start n8n:
+
+
+n8n
+
+
+3. Open browser:
+
+
+http://localhost:5678
+
+
+4. Import workflow.json
+5. Connect Google Sheets
+6. Click Execute Workflow
+
+---
+
+## 🎯 Features
+
+* Automation using n8n
+* Real-time data processing
+* Decision making using conditions
+
+---
+
 ## 📊 Insights Dashboard
 
 The system doesn’t just process data — it **tells a story** 📈
