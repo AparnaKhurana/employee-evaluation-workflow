@@ -28,11 +28,19 @@ That’s exactly what this project does 👇
 The recommendation is based on:
 
 ⭐ Highly Recommended
+
 Performance Score > 85
+
 Attendance > 90%
+
+
 👍 Recommended
+
 Performance Score between 70 – 85
+
+
 ❌ Not Recommended
+
 Performance Score < 70
 
 ---
